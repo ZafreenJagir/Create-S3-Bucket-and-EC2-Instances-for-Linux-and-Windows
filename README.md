@@ -6,7 +6,7 @@ REGISTER NO: 212223040252
 ## AIM
 To Create S3 bucket and EC2 Instances for Linux and Windows.
 ## PROBLEM STATEMENT
-    This experiment aims to demonstrate the creation of an Amazon S3 bucket for storage purposes and the setup of EC2 instances for both Linux and Windows operating systems using AWS. Amazon S3 (Simple Storage Service) provides secure and scalable object storage, while EC2 (Elastic Compute Cloud) allows users to deploy virtual servers for computation and application hosting.
+This experiment aims to demonstrate the creation of an Amazon S3 bucket for storage purposes and the setup of EC2 instances for both Linux and Windows operating systems using AWS. Amazon S3 (Simple Storage Service) provides secure and scalable object storage, while EC2 (Elastic Compute Cloud) allows users to deploy virtual servers for computation and application hosting.
 
 ## ALGORITHM
  
@@ -39,6 +39,8 @@ Connect to Instances
 
 ## Commands
 
+```
+
 S3 Bucket Creation
 1.AWS CLI Command:
 aws s3 mb s3:// --region
@@ -46,6 +48,8 @@ aws s3 mb s3:// --region
 Launch Linux EC2 instance and set up SSH access.
 3.EC2 Instance (Windows) Commands:
 Launch Windows EC2 instance and connect using RDP.
+
+```
 
 ## OUTPUT:
 
